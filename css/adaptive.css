@@ -1,0 +1,172 @@
+@media only screen and (max-width:1487px){
+  .season2020{
+  width: 100%;
+  }
+  .newcollection{
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 1200px){
+
+.container{
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.season2020{
+width: 100%;
+}
+.newcollection{
+  width: 100%;
+}
+.season_cards{
+  margin: 0 50px;
+}
+.season2018desc{
+  width: 100%;
+}
+.manbg{
+  width: 100%;
+  height: 50vh;
+}
+.brends_items{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.about_items{
+  justify-content: center;
+}
+.about_item{
+  margin-right: 50px;
+}
+@media only screen and (max-width: 992px){
+  .season_cards{
+    display: block;
+  }
+  .bg{
+    max-width: 215px;
+    padding: 10px 20px;
+  }
+  .season_card{
+    max-width: 215px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+  }
+
+}
+
+@media only screen and (max-width: 768px){
+  .header::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+  }
+.header_burger{
+  display: block;
+  position: relative;
+  transition: .3s;
+  z-index: 2;
+}
+.header_burger::before,.header_burger::after{
+  content: '';
+  background-color: white;
+  position: absolute;
+  width: 35px;
+  height: 2px;
+  right: 0;
+  transition: .3s;
+}
+.header_burger::before{
+  top: 10px;
+}
+.header_burger::after{
+  top: 30px;
+}
+.header_burger>span{
+  position: absolute;
+  background-color: white;
+  right: 0;
+  width: 35px;
+  height: 2px;
+  top: 20px;
+  transition: .3s;
+}
+
+.header_burger:hover{
+  cursor: pointer;
+}
+.header_burger.active::before{
+  transform: rotate(45deg);
+  top: 20px;
+}
+.header_burger.active::after{
+  transform: rotate(-45deg);
+  top: 20px;
+}
+.header_burger.active>span{
+  transform: rotate(45deg);
+}
+.nav{
+  z-index: 1;
+  position: fixed;
+  top: -300px;
+  left: 0;
+  width: 100%;
+}
+.nav.active{
+  top: 0;
+  position: inherit;
+}
+.nav.active>a{
+  width: 100%;
+}
+.nav.active>.basket{
+margin-left: 0;
+}
+.nav.active>.search{
+  margin-left: 0;
+}
+.contact{
+
+}
+.header_link{
+  text-align: center;
+}
+.basket,.search{
+text-align: center;
+transition: .3s;
+}
+.basket:hover,.search:hover{
+background-color: #1F1F1F;
+}
+.basket>img,.search>img{
+margin: 20px auto;
+}
+}
+
+@media only screen and (max-width: 480px){
+.category_link{
+  margin-bottom: 15px;
+}
+.info{
+  max-width: 200px;
+}
+.phonelogo{
+  display: none;
+}
+}
+@media only screen and (max-width: 445px){
+.number{
+  margin-left: 0px;
+}
+}
+
+@media only screen and (max-width: 320px){
+.number{
+  margin-left: 0px;
+}
+}
